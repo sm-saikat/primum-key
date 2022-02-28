@@ -1,0 +1,397 @@
+*:focus{
+    outline: none!important;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+
+.container{
+    max-width: 1200px !important;
+}
+
+
+
+.header-banner button {
+    color: #00b9ff;
+    font-size: 16px;
+    padding: 8px 22px;
+    border-radius: 3px;
+    background: none;
+    border: 1px solid #00b9ff;
+}
+
+.header-banner button:hover {
+    background: #00b9ff;
+    color:#fff;
+    transition: 0.3s;
+}
+
+.header-banner h1{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 50px;
+    max-width: 480px;
+}
+
+.header-banner p{
+    margin-bottom: 30px1;
+    font-size: 16px;
+    max-width: 480px;
+    margin-top: 18px;
+}
+
+.header-banner .py-2{
+    padding-bottom: 0px !important;
+}
+
+.pillar{
+    margin: 10px;
+}
+
+.pillar p{
+    margin: 10px 0 !important;
+}
+
+.pillar h3{
+    margin-bottom: 0px;
+}
+
+.pillar-images{
+    width: 50px;
+    height: 50px;
+}
+
+.header-banner .search {
+    float: left;
+    width: 48%;
+    margin-left: 26%;
+}
+
+.header-search {
+    position: relative;
+    height: 54px !important;
+    background: #fff;
+    border-radius: 100px;
+    margin: 15% 0 5%;
+    width: 100%;
+}
+
+.header-search form{
+    /* position: relative; */
+    width: 100%;
+    float: left;
+}
+
+.header-search select{
+    width: 50%;
+    float: right;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    color: rgb(133, 133, 133);
+}
+
+
+input#searchByCate {
+    margin-left: 25px;
+    border: none;
+    width: 40%;
+    position: absolute;
+    left: 0 !important;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+input#searchByCate:focus{
+    box-shadow: none;
+}
+
+.form-control, .input-text, input[type="text"], input[type="password"], input[type="email"] {
+    padding-left: 18px;
+}
+
+
+/* product section */
+
+.product-section-main{
+    display: flex;
+    justify-content: center;
+}
+
+.product-section .card{
+    max-width: calc(100%/5);
+    height: auto;
+    margin: 15px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.product-section .card small{
+    font-size: 18px;
+}
+
+.product-section .card:hover{
+    background-color: #00b9ff;
+}
+
+/* Help Section */
+
+.help-section{
+    max-width: 1100px !important;
+    padding: 6% 5% 3% 5% !important;
+}
+
+.help-section h2{
+    font-weight: bold;
+    font-size: 28px;
+}
+.home-help .help-button{
+    text-transform: uppercase;
+    font-weight: normal;
+    border: 1px solid #2fd06d;
+    color: #2fd06d;
+    padding: 10px 15px;
+    cursor: pointer;
+    float: left;
+    border-radius: 3px;
+}
+.home-help .help-button:hover{
+    color: #fff;
+    background-color:#2fd06d ;
+    transition: 0.3s;
+}
+
+
+/* Footer Section */
+
+.footer-section > .container{
+    margin: auto !important;
+}
+
+.p-footer ul li{
+    list-style: none;
+    margin: 10px 0px;
+}
+
+.footer-column{
+    margin: 10px 0;
+}
+.footer-column h5{
+    font-weight: bold;
+}
+ .p-footer  ul li a{
+    text-decoration: none;
+    color: white;
+ }
+
+ .p-footer  ul li a:hover{
+    text-decoration: underline;
+    color: black;
+    transition: 0.3s;
+ }
+
+ /*How its works*/
+
+
+ .how-it-works-top p{
+    font-size: 18px;
+    margin: 20px 0;
+ }
+
+ .main-content{
+     position: relative;
+     height: auto;
+     background: url("assets/images/graphic-noise.e802a5f6.png") 0 0/70px repeat, linear-gradient(110deg, #42728a, #5595b2) , #49809a;
+     padding: 50px 0;
+ }
+
+ .main-content:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    max-height: 500px;
+    background: url("./assets/images/illustration-money-currents-1600.39ad2809.svg") no-repeat;
+    background-position: top center;
+    background-size: cover;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+}
+
+.o-bg-ellipsis-experimental {
+    position: relative;
+    display: grid;
+    width: 40%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.o-bg-ellipsis-experimental::before{
+    content: "";
+    position: absolute;
+    width: 150vw;
+    height: 150vw;
+    background: #fff;
+    top: 50%;
+    right: 50%;
+    transform: translateX(50%);
+    border-radius: 100%;
+    max-height: 350px;
+}
+
+.p-hiw-title-card__container {
+    position: relative;
+    width: calc(100%);
+    padding: 30px 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    z-index: 1;
+}
+
+.p-hiw-title-card__container .p-hiw__title {
+    font-size: 28px;
+    color: #3c454b;
+    line-height: 31px;
+    margin: 0;
+}
+
+.o-bg-ellipsis-experimental::after{
+    clear: both;
+}
+
+.how-it-works.info-section{
+    padding-top: 10% !important;
+}
+
+.how-it-works .step{
+    position: relative;
+}
+
+.how-it-works .step-1::before{
+    content: '1';
+}
+.how-it-works .step-2::before{
+    content: '2';
+}
+.how-it-works .step-3::before{
+    content: '3';
+}
+
+.how-it-works .step::before{
+    position: absolute;
+    display: block;
+    width: 78px;
+    height: 78px;
+    border: 2px solid #0096d4;
+    color: #0096d4;
+    font-size: 42px;
+    border-radius: 50%;
+    top: -100px;
+    left: 50%;
+    margin-left: -34px;
+}
+
+.how-it-works h3 {
+    margin-bottom: 28px;
+    margin-top: 27px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.how-it-works p {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    color: #5f636d;
+    line-height: 28px;
+    margin-bottom: 12px;
+}
+
+
+.how-it-works.article-section{
+    padding-bottom: 5% !important;
+}
+.how-it-works .sub-title{
+    font-size: 18px;
+}
+
+.how-it-works.h5.item-title{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.how-it-works.p.item-paragraph{
+    font-size: 16px;
+}
+
+
+/*media query*/
+@media only screen and (max-width:1023px){
+    .p-hiw-title-card__container .p-hiw__title{
+        font-size: 16px;
+    }
+    .home-help{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .home-help img{
+        height: 80%;
+        width: 80%;
+    }
+
+    .header-banner .search {
+        width: 100%;
+        margin: 0;
+        padding: 0 10px;
+    }
+}
+
+@media only screen and (max-width:800px){
+    footer{
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width:700px){
+
+    .hero-section .text-area{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    .product-section{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:576px){
+    .how-it-works .step{
+        margin-top: 120px !important;
+    }
+    .how-it-works.info-section{
+        padding-top: 5% !important;
+    }
+
+    .o-bg-ellipsis-experimental{
+        width: 80%;
+    }
+}
